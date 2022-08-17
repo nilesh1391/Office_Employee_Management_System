@@ -1,0 +1,34 @@
+<!doctype html>
+{% load static %}
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Employee</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <link rel="stylesheet" href="{% static 'css/index.css' %}">
+  </head>
+  <body>
+    <nav class="navbar navbar-inverse">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <a class="navbar-brand"><h3>EMS</h3></a>
+        </div>
+          <ul class="nav nav-pills flex-column flex-sm-row">
+            <li class="nav-item"><a class="nav-link active" href="/all_emp">View Employees</a></li>
+            <li class="nav-item"><a class="nav-link" href="/add_emp">Add Employee</a></li>
+            <li class="nav-item"><a class="nav-link" href="/remove_emp">Remove Employee</a></li>
+            <li class="nav-item"><a class="nav-link" href="/change_emp">Filter Employee</a></li>
+          </ul>
+    </div>
+    </nav>
+    </br></br></br></br>
+    <div class="center">
+      <h1 class="display-5 fw-bold">Office Employee Management System</h1>
+      <p class="col-md-8 fs-4">Our Employee Management System simplifies employee management & reporting.
+        You can view all employees details, add new employee, remove existing employee and
+        Filter employees based on their name, role and department</p>
+      </div>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+  </body>
+</html>
